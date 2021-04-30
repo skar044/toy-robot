@@ -1,0 +1,150 @@
+[
+  {
+    "actions": [
+      "place 1,1,north"
+    ],
+    "expectedResult": "Output: 1,1,North"
+  },
+  {
+    "actions": [
+      "place 1,1,south"
+    ],
+    "expectedResult": "Output: 1,1,South"
+  },
+  {
+    "actions": [
+      "place 1,1,east"
+    ],
+    "expectedResult": "Output: 1,1,East"
+  },
+  {
+    "actions": [
+      "place 1,1,west"
+    ],
+    "expectedResult": "Output: 1,1,West"
+  },
+  {
+    "actions": [
+      "place 1,1,north",
+      "place 2,2,east"
+    ],
+    "expectedResult": "Output: 2,2,East"
+  },
+  {
+    "actions": [
+      "place 1,1,north",
+      "place 2,2,east",
+      "place 4,4,south"
+    ],
+    "expectedResult": "Output: 4,4,South"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "left"
+    ],
+    "expectedResult": "Output: 1,1,West"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "left",
+      "left"
+    ],
+    "expectedResult": "Output: 1,1,South"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "left",
+      "left",
+      "left"
+    ],
+    "expectedResult": "Output: 1,1,East"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "right"
+    ],
+    "expectedResult": "Output: 1,1,East"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "right",
+      "right"
+    ],
+    "expectedResult": "Output: 1,1,South"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "right",
+      "right",
+      "right"
+    ],
+    "expectedResult": "Output: 1,1,West"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "move"
+    ],
+    "expectedResult": "Output: 1,2,North"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "move",
+      "move"
+    ],
+    "expectedResult": "Output: 1,3,North"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "move",
+      "move",
+      "move"
+    ],
+    "expectedResult": "Output: 1,4,North"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "move",
+      "move",
+      "move",
+      "move"
+    ],
+    "expectedResult": "Unable to move robot. Moving robot in current direction will move it off the board."
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "move",
+      "move",
+      "move",
+      "right",
+      "move",
+      "right",
+      "move"
+    ],
+    "expectedResult": "Output: 2,3,South"
+  },
+  {
+    "actions" : [
+      "place 1,1,north",
+      "move",
+      "move",
+      "move",
+      "right",
+      "move",
+      "right",
+      "move",
+      "place 2,2,south"
+    ],
+    "expectedResult": "Output: 2,2,South"
+  }
+]

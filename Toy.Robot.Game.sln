@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Robot.Game", "Toy.Robot.Game\Toy.Robot.Game.csproj", "{13EE9F15-5B26-4EF7-B8FE-47FA5EDC7F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Robot", "Toy.Robot\Toy.Robot.csproj", "{3E627F67-8CDC-4219-A6FE-19C2BE32CDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Robot.Tests", "Toy.Robot.Tests\Toy.Robot.Tests.csproj", "{A3F319BA-645B-4E5E-B5E9-BC04D11C59F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Robot.Game.Tests", "Toy.Robot.Game.Tests\Toy.Robot.Game.Tests.csproj", "{13D379D8-F5A2-4E9C-A102-F995D486EB8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13EE9F15-5B26-4EF7-B8FE-47FA5EDC7F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EE9F15-5B26-4EF7-B8FE-47FA5EDC7F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EE9F15-5B26-4EF7-B8FE-47FA5EDC7F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EE9F15-5B26-4EF7-B8FE-47FA5EDC7F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E627F67-8CDC-4219-A6FE-19C2BE32CDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E627F67-8CDC-4219-A6FE-19C2BE32CDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E627F67-8CDC-4219-A6FE-19C2BE32CDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E627F67-8CDC-4219-A6FE-19C2BE32CDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F319BA-645B-4E5E-B5E9-BC04D11C59F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F319BA-645B-4E5E-B5E9-BC04D11C59F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F319BA-645B-4E5E-B5E9-BC04D11C59F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F319BA-645B-4E5E-B5E9-BC04D11C59F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D379D8-F5A2-4E9C-A102-F995D486EB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D379D8-F5A2-4E9C-A102-F995D486EB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D379D8-F5A2-4E9C-A102-F995D486EB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D379D8-F5A2-4E9C-A102-F995D486EB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
